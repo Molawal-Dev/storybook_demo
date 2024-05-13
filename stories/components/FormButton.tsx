@@ -2,13 +2,13 @@ import './FormButton.css'
 
 type ButtonProps = {
     primary?: boolean;
-    background?: string;
+    backgroundColor?: string;
     rounded?: boolean;
     label: string;
     onClick?: () => void;
 }
 
-const FormButton = ({ primary=false, background, rounded, label, ...props }: ButtonProps) => {
+const FormButton = ({ primary=false, backgroundColor, rounded, label, ...props }: ButtonProps) => {
 
   const setPrimary = primary ? 'form-button--primary' : 'form-button--secondary';
 
@@ -24,7 +24,7 @@ const FormButton = ({ primary=false, background, rounded, label, ...props }: But
 
       <style jsx>{`
         button {
-          background-color: ${background};
+          background-color: ${backgroundColor};
         }
       `}</style>
     </button>
