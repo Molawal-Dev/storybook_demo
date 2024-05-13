@@ -1,0 +1,31 @@
+.form-button {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    border: 0;
+    cursor: pointer;
+    padding: 1em;
+    width: 100%;
+    line-height: 1;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+    transition: padding 0.2s ease-in-out;
+}
+
+.form-button:hover {
+    padding: 1.1em;
+}
+
+
+.form-button--primary {
+    color: white;
+    background-color: #1ea7fd;
+}
+
+.form-button--secondary {
+    color: rgb(20, 19, 17);
+    background-color: rgba(128, 128, 128, 0.623);
+}
+
+.form-button--rounded {
+    border-radius:25px;
+}
+
