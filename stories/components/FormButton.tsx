@@ -16,11 +16,17 @@ const FormButton = ({ primary=false, background, rounded, label, ...props }: But
 
   return (
     <button
-        type='button'
-        className={['form-button', setPrimary, setRounded].join(' ')}
-        {...props}
+      type='button'
+      className={['form-button', setPrimary, setRounded].join(' ')}
+      {...props}
     >
-        {label}
+      {label}
+
+      <style jsx>{`
+        button {
+          background-color: ${background};
+        }
+      `}</style>
     </button>
   )
 }
