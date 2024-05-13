@@ -13,7 +13,7 @@ const meta = {
   tags: ['autodocs'],
 
   argTypes: {
-    background: { control: 'color' },
+    backgroundColor: { control: 'color' },
   },
 
   args: { onClick: fn() },
