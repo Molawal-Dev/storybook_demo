@@ -13,7 +13,7 @@ const Dropdown = ({ DropdownBg, option1, option2, option3, option4, dropDownShad
   return (
     <div 
         style={{
-            backgroundColor: 'grey',
+            backgroundColor: DropdownBg,
             padding: '20px',
             borderRadius: '5px',
             display:'flex',
@@ -40,7 +40,6 @@ const Dropdown = ({ DropdownBg, option1, option2, option3, option4, dropDownShad
           padding: 8px;
           display: flex;
           border-radius: 5px;
-          
         }
       `}</style>
     </div>

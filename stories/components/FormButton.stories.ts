@@ -17,6 +17,7 @@ const meta = {
   },
 
   args: { onClick: fn() },
+  
 } satisfies Meta<typeof FormButton>;
 
 export default meta;
